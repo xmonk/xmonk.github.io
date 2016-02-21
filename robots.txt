@@ -1,0 +1,54 @@
+User-agent *
+Disallow: /
+
+User-agent: bingbot
+Disallow: /static/
+Crawl-delay: 2
+
+User-agent: msnbot
+Disallow /static/
+Crawl-delay: 2
+
+User-Agent: Googlebot
+Disallow: /static/
+
+User-Agent: Googlebot-Mobile
+Disallow: /static/
+
+User-Agent: msnbot
+Disallow: /static/
+Crawl-delay: 2
+
+User-Agent: bingbot
+Disallow: /static/
+Crawl-delay: 2
+
+User-agent: DuckDuckBot
+Disallow: /static/
+
+User-agent: ia_archiver
+Disallow: /static/
+
+# Facebook
+User-agent: Facebot
+Disallow: /static/
+
+# Twitterbot
+User-agent: Twitterbot
+Disallow: /static/
+
+# Adsense
+User-Agent: Mediapartners-Google
+Disallow: /static/
+
+User-Agent: AhrefsBot
+Disallow: /
+
+User-Agent: Google-Image
+Disallow: /
+
+User-Agent: Googlebot-Image
+Disallow: /
+
+User-Agent: Baiduspider
+Disallow: /
