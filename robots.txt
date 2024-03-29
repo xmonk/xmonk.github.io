@@ -6,7 +6,7 @@ Disallow: /static/
 Crawl-delay: 2
 
 User-agent: msnbot
-Disallow /static/
+Disallow: /static/
 Crawl-delay: 2
 
 User-Agent: Googlebot
@@ -14,10 +14,6 @@ Disallow: /static/
 
 User-Agent: Googlebot-Mobile
 Disallow: /static/
-
-User-Agent: msnbot
-Disallow: /static/
-Crawl-delay: 2
 
 User-Agent: bingbot
 Disallow: /static/
@@ -31,11 +27,11 @@ Disallow: /static/
 
 # Facebook
 User-agent: Facebot
-Disallow: /static/
+Disallow: /
 
 # Twitterbot
 User-agent: Twitterbot
-Disallow: /static/
+Disallow: /
 
 # Adsense
 User-Agent: Mediapartners-Google
